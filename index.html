@@ -15,28 +15,15 @@
         rel="stylesheet">
 
     <!-- tailwind custom classes -->
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        clifford: '#da373d',
-                        'bike-primary': 'green',
-                        'bike-primary-bg': 'white',
-                    }
-                }
-            }
-        }
-    </script>
-
-    <!--tailwind css-->
     <style>
         .font-poppins {
             font-family: 'Poppins', sans-serif;
         }
+
         body {
             background-color: white;
         }
+
         .news {
             padding: 10px 20px;
             background-color: green;
@@ -47,10 +34,27 @@
             font-size: 16px;
             font-weight: bold;
         }
+
         .nav {
             position: fixed;
             top: 0;
             z-index: 100;
+            width: 100%; /* Tambahkan lebar 100% untuk navbar */
+        }
+
+        /* Tambahkan kelas responsif untuk menyesuaikan tata letak pada perangkat mobile */
+        @media (max-width: 767px) {
+            .nav {
+                background-color: green; /* Ganti warna latar belakang navbar untuk tampilan mobile */
+            }
+
+            .navbar-center {
+                display: none; /* Sembunyikan menu horizontal pada tampilan mobile */
+            }
+
+            .dropdown-content {
+                background-color: green; /* Ganti warna latar belakang dropdown pada tampilan mobile */
+            }
         }
     </style>
 
@@ -73,7 +77,7 @@
                             <li><a href="#dashboard">HOME</a></li>
                             <li><a href="#chatbot">CHATBOT</a></li>
                             <li><a href="#news">NEWS</a></li>
-                            <li><a href ="#faq">FAQ</a></li>
+                            <li><a href="#faq">FAQ</a></li>
                         </ul>
                     </div>
                     <a class="btn btn-ghost normal-case text-xl">PPKS WEBSITE</a>
@@ -83,7 +87,7 @@
                         <li><a href="#dashboard">HOME</a></li>
                         <li><a href="#chatbot">CHATBOT</a></li>
                         <li><a href="#news">NEWS</a></li>
-                        <li><a href ="#faq">FAQ</a></li>
+                        <li><a href="#faq">FAQ</a></li>
                     </ul>
                 </div>
             </div>
