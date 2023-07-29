@@ -45,7 +45,7 @@
         /* Tambahkan kelas responsif untuk menyesuaikan tata letak pada perangkat mobile */
         @media (max-width: 767px) {
             .nav {
-                background-color: green; /* Ganti warna latar belakang navbar untuk tampilan mobile */
+                background-color: #1d232a;  /* Ganti warna latar belakang navbar untuk tampilan mobile */
             }
 
             .navbar-center {
@@ -53,7 +53,18 @@
             }
 
             .dropdown-content {
-                background-color: green; /* Ganti warna latar belakang dropdown pada tampilan mobile */
+                display: none; /* Sembunyikan dropdown pada tampilan mobile */
+                position: absolute;
+                top: 40px;
+                left: 0;
+                z-index: 10;
+                background-color: #1d232a;/* Ganti warna latar belakang dropdown pada tampilan mobile */
+                width: 100%;
+                padding: 0.5rem;
+            }
+
+            .dropdown:hover .dropdown-content {
+                display: block; /* Tampilkan dropdown saat tombol dropdown di-hover pada perangkat mobile */
             }
         }
     </style>
