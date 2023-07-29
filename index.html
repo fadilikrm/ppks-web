@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBSITE PPKS</title>
+    <!-- tailwind and daisy ui cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- tailwind custom classes -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'bike-primary': 'green',
+                        'bike-primary-bg': 'white',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!--tailwind css-->
+    <style>
+        .font-poppins {
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background-color: white;
+        }
+        .news {
+            padding: 10px 20px;
+            background-color: green;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .nav {
+            position: fixed;
+            top: 0;
+            z-index: 100;
+        }
+    </style>
+
+</head>
+<body>
+    <header class="md:contianer md:mx-auto">
+        <nav>
+            <div class="navbar bg-base-100 text-white nav">
+                <div class="flex-1">
+                    <div class="dropdown">
+                        <label tabindex="0" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </label>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a href="#dashboard">HOME</a></li>
+                            <li><a href="#chatbot">CHATBOT</a></li>
+                            <li><a href="#news">NEWS</a></li>
+                            <li><a href ="#faq">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost normal-case text-xl">PPKS WEBSITE</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a href="#dashboard">HOME</a></li>
+                        <li><a href="#chatbot">CHATBOT</a></li>
+                        <li><a href="#news">NEWS</a></li>
+                        <li><a href ="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="mx-20 lg:mx-20" id="dashboard">
+        <div class="mx-5 lg:mx-20">
+            <div class="carousel w-full lg:h-[550px] bg-bike-primary-bg ">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <div class="flex flex-col lg:flex-row p-4 lg:p-24 gap-20  md:contianer md:mx-auto">
+                        <div class="space-y-7 flex-1">
+                            <br>
+                            <br>
+                            <h2 class="text-3xl font-bold md:text-6xl font-bold text-black">
+                                STOP
+                                <br>KEKERASAN SEKSUAL
+                            </h2>
+                            <a href="#chatbot" class="news">TRY OUR CHATBOT</a>
+                        </div>
+                        <div class="flex-1">
+                            <img src="images/slider/slider1.png" class="w-[400px]" />
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </header class="md:contianer md:mx-auto">
+    <main>
+        <section class="mx-20 lg:mx-20 text-black">
+            <br>
+            <br>
+            <h3 class="text-5xl mb-5 mt-5 font-bold text-center">SELAMAT<span class="text-bike-primary"> DATANG</span></h3>
+        <div class="hero">
+            <div class="hero-content flex-col lg:flex-row lg:gap-24">
+                <div>
+                    <div class="collapse-title text-xl font-medium text-center mx-5">
+                        Selamat datang di situs kami yang berfokus pada Pencegahan dan Penanggulangan Kekerasan Seksual. 
+                        Kami hadir untuk menyebarkan kesadaran, memberikan informasi, dan menyediakan sumber daya tentang pentingnya 
+                        mencegah kekerasan seksual. Di sini, Anda akan menemukan informasi tentang definisi kekerasan seksual, tanda-tanda 
+                        peringatan, dampaknya, serta langkah-langkah praktis dalam merespon dan melindungi diri. Tujuan kami adalah membangun komunitas yang aman 
+                        dan peduli, serta memberikan dukungan kepada mereka yang terkena dampak kekerasan seksual. Bersama-sama, kita dapat 
+                        menciptakan dunia yang bebas dari kekerasan seksual. <b>Data anda dijamin keamanannya</b>. jangan ragu dan bimbang, 
+                        bergabunglah dengan kami dalam upaya ini dan mari bersama-sama mencegah kekerasan seksual serta mendukung korban yang 
+                        membutuhkan. Terima kasih telah mengunjungi situs kami.
+                       
+                    </div>    
+                </div>
+            </div>    
+        </div>          
+        </section>   
+        <section class="mx-20 lg:mx-20 py-24" id="chatbot">
+            <h3 class="text-5xl mb-7 text-black font-bold text-center">CHATBOT</h3>
+            <div class="collapse-title text-xl font-medium text-center text-black mx-5">
+                Kami memiliki chatbot yang bisa digunakan untuk mendukung program PPKS dan memiliki berbagai 
+                fitur yang dapat membantu anda dalam berbagai masalah yang berhubungan dengan PPKS. 
+                Jika ingin menggunakannya cukup ketik hi untuk pertama kali. selanjutnya ikuti instruksi yang ada dalam bot tersebut
+            </div>
+            <div class="flex justify-center">
+                <div class="grid grid-cols-1 md:gird-cols-1 lg:grid-cols-2 gap-10">
+                    <div class="card card-compact bg-base-10 shadow-xl pt-4 text-black max-w-xs">
+                        <figure><img src="images/others/ss1.jpg" width="300" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <h2 class="card-title text-3xl">WHATSAPP CHATBOT</h2>
+                            <p></p>
+                            <div class="card-actions text-center">
+                                <a href="https://wa.me/+6281524166607" class="news">TRY NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-compact bg-base-10 shadow-xl pt-4 text-black max-w-xs">
+                        <figure><img src="images/others/ss2.jpg" width="300" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <h2 class="card-title text-3xl">TELEGRAM CHATBOT</h2>
+                            <p></p>
+                            <div class="card-actions text-center">
+                                <a href="http://t.me/satgasPPKS_bot" class="news">TRY NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>        
+        <section class="mx-20 lg:mx-20 py-24" id="news">
+            <h3 class="text-5xl mb-12 text-black font-bold text-center">NEWS</h3>
+            <div class="grid grid-cols-1 md:gird-cols-2 lg:grid-cols-3 gap-5">
+                <!-- first card -->
+                <div class="card card-compact bg-base-100 shadow-xl pt-4 text-white">
+                    <figure><img src="images/others/news1.png" width="500vh" length="500vh" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title text-3xl">APA ITU KEKERASAN SEKSUAL</h2>
+                        <p></p>
+                        <div class="card-actions">
+                            <a href="https://merdekadarikekerasan.kemdikbud.go.id/kekerasan-seksual/" class="news">Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- second card -->
+                <div class="card card-compact bg-base-100 shadow-xl pt-4 text-white">
+                    <figure><img src="images/others/news2.png" width="500vh" length="500vh" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title text-3xl">PENCEGAHAN DAN PENANGANAN KEKERASAN SEKSUAL</h2>
+                        <p></p>
+                        <div class="card-actions">
+                            <a href="https://merdekadarikekerasan.kemdikbud.go.id/pencegahan/#" class="news">Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- third card -->
+                <div class="card card-compact bg-base-100 shadow-xl pt-4 text-white">
+                    <figure><img src="images/others/news3.png" width="500vh" length="500vh" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title text-3xl">PERATURAN PENCEGAHAN DAN PENANGANAN KEKERASAN SEKSUAL</h2>
+                        <p></p>
+                        <div class="card-actions">
+                            <a href="https://merdekadarikekerasan.kemdikbud.go.id/peraturan/#" class="news">Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <!-- FAQ -->
+        <section class="mx-20 lg:mx-20 py-24 text-black" id="faq">
+            <h3 class="text-5xl mb-12 font-bold text-center">PERTANYAAN<span class="text-bike-primary"> TERKAIT</span></h3>
+            <div class="hero">
+                <div class="hero-content flex-col lg:flex-row lg:gap-24">
+                    <div>
+                        <div class="collapse collapse-arrow">
+                            <input type="radio" name="my-accordion-2" checked="checked" />
+                            <div class="collapse-title text-xl font-medium">
+                                APA ITU KEKERASAN SEKSUAL
+                            </div>
+                            <div class="collapse-content">
+                                <p>Kekerasan seksual adalah tindakan kekerasan atau paksaan dalam konteks seksual terhadap seseorang tanpa persetujuan. 
+                                    Ini mencakup pemerkosaan, pelecehan seksual, dan lainnya. Hal ini melanggar hak asasi manusia dan harus ditindak secara tegas. 
+                                    Penting untuk mencegah, mendukung korban, dan menghukum pelaku untuk menciptakan lingkungan yang aman. </p>
+                            </div>
+                        </div>
+                        <div class="collapse collapse-arrow">
+                            <input type="radio" name="my-accordion-2" />
+                            <div class="collapse-title text-xl font-medium">
+                                DASAR HUKUM KEKERASAN SEKSUAL
+                            </div>
+                            <div class="collapse-content">
+                                <ul>
+                                    <li className=" text-sm py-2 text-gray-400 leading-6 text-justify">    
+                                    1.	Undang-Undang Nomor 23 Tahun 2004 tentang Penghapusan Kekerasan dalam Rumah Tangga: Undang-undang ini mencakup perlindungan terhadap semua bentuk kekerasan dalam rumah tangga, termasuk kekerasan seksual.</li>
+                                    <li className=" text-sm py-2 text-gray-400 leading-6 text-justify"> 
+                                    2.	Undang-Undang Nomor 35 Tahun 2014 tentang Perlindungan Anak: Undang-undang ini menyediakan kerangka kerja perlindungan anak yang komprehensif, termasuk melindungi anak dari kekerasan seksual.</li>
+                                    <li className=" text-sm py-2 text-gray-400 leading-6 text-justify"> 
+                                    3.	Undang-Undang Nomor 23 Tahun 2002 tentang Perlindungan Anak: Undang-undang ini juga memberikan perlindungan terhadap anak, termasuk melindungi mereka dari kekerasan seksual.</li>
+                                    <li className=" text-sm py-2 text-gray-400 leading-6 text-justify"> 
+                                    4.	Undang-Undang Nomor 13 Tahun 2006 tentang Perlindungan Saksi dan Korban: Undang-undang ini memberikan perlindungan dan keamanan kepada saksi dan korban kejahatan, termasuk korban kekerasan seksual.</li>
+                                    <li className=" text-sm py-2 text-gray-400 leading-6 text-justify"> 
+                                    5.	Undang-Undang Nomor 17 Tahun 2016 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 1 Tahun 2016 tentang Perubahan Kedua atas Undang-Undang Nomor 23 Tahun 2002 tentang Perlindungan Anak Menjadi Undang-Undang: Undang-undang ini menguatkan perlindungan terhadap anak, termasuk melindungi mereka dari kekerasan seksual.</li>
+                                    <li className=" text-sm py-2 text-gray-400 leading-6 text-justify"> 
+                                    6.	Peraturan Pemerintah Nomor 27 Tahun 2020 tentang Perlindungan Anak dalam Pencarian dan Pengambilan Keputusan: Peraturan pemerintah ini mengatur prosedur pencarian dan pengambilan keputusan terkait anak yang terancam kekerasan, termasuk kekerasan seksual.</li>
+                                    <li className="text-sm py-2 text-gray-400 leading-6 text-justify">
+                                    7. Peraturan Menteri Pendidikan, Kebudayaan, Riset, Dan Teknologi Republik Indonesia Nomor 30 Tahun 2021 Tentang Pencegahan Dan Penanganan Kekerasan Seksual Di Lingkungan Perguruan Tinggi</li>
+                                    <li className=" text-sm py-2 text-gray-400 leading-6 text-justify">
+                                    Perlu dicatat bahwa daftar ini tidak lengkap dan masih banyak peraturan hukum lainnya yang terkait dengan pencegahan dan penanggulangan kekerasan seksual di Indonesia. Sebaiknya selalu merujuk pada undang-undang dan peraturan terkait yang terbaru dan memperhatikan perkembangan terkini dalam hal ini. </li>
+                                    </ul>
+                            </div>
+                        </div>
+                        <div class="collapse collapse-arrow">
+                            <input type="radio" name="my-accordion-2" />
+                            <div class="collapse-title text-xl font-medium">
+                                TIPS DAN SARAN MENGHINDARI KEKERASAN SEKSUAL
+                            </div>
+                            <div class="collapse-content">
+                                <ul>
+                                    <li>Tingkatkan Kesadaran: Edukasi diri dan orang lain tentang masalah kekerasan seksual dan bahayanya.</li>
+                                    <li>Perhatikan Lingkungan: Selalu perhatikan lingkungan sekitar dan hindari tempat-tempat yang dianggap tidak aman, terutama pada malam hari.</li>
+                                    <li>Percayai Insting: Percayai insting Anda. Jika Anda merasa tidak nyaman atau merasa ada sesuatu yang tidak beres, cari tempat yang aman atau minta bantuan.</li>
+                                    <li>Waspadai Minuman: Jaga minuman Anda dengan baik dan hindari minuman yang tidak dikenal atau ditinggalkan.</li>
+                                    <li>Gunakan Transportasi Aman: Gunakan transportasi resmi dan aman, terutama saat bepergian sendirian.</li>
+                                    <li>Tetap Bersama Teman: Lebih baik bepergian atau berada di tempat umum bersama teman atau kelompok.</li>
+                                    <li>Tetap Terhubung: Informasikan kepada teman atau keluarga tentang rencana Anda dan beri tahu mereka jika ada perubahan.</li>
+                                    <li>Tidak Mudah Percaya: Jangan mudah percaya kepada orang asing yang tiba-tiba sangat ramah atau terlalu dekat.</li>
+                                    <li>Kuatkan Batasan: Tetapkan batasan yang jelas dalam hubungan pribadi dan bertindak tegas jika ada orang yang mencoba melewati batasan tersebut.</li>
+                                    <li>Pelajari Cara Melawan: Pelajari teknik-teknik bela diri dan cara melawan jika menghadapi situasi berbahaya.</li>
+                                    <li>Dukungan Sosial: Carilah dukungan sosial dari keluarga, teman, atau kelompok masyarakat yang bisa membantu jika Anda merasa terancam.</li>
+                                    <li>Laporkan Kekerasan: Jangan ragu untuk melaporkan tindakan kekerasan seksual kepada pihak berwenang. Bantu pula mendukung korban agar tidak takut melapor.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer p-10 bg-neutral text-neutral-content text-white">
+        <div class="flex justify-between w-full">
+            <p class="ml-0">WEBSITE PPKS</p>
+            <p class="mr-0">CREATED BY SIGMA MALE</p>
+        </div>
+    </footer>
+</body>
+</html>
